@@ -1,0 +1,51 @@
+{
+  "name": "@komplexai/halu",
+  "version": "0.1.0",
+  "description": "JavaScript/TypeScript client for Komplex AI — a hallucination detector for LLM output. Score any response for hallucination risk in one call.",
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "files": ["dist", "README.md", "LICENSE"],
+  "scripts": {
+    "build": "tsup",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "hallucination",
+    "hallucination-detection",
+    "llm",
+    "ai-safety",
+    "fact-checking",
+    "rag",
+    "guardrails",
+    "trust-score",
+    "komplexai",
+    "typescript"
+  ],
+  "author": "Komplex AI <support@komplexai.io>",
+  "license": "Apache-2.0",
+  "homepage": "https://detector.komplexai.io",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/komplexai/halu-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/komplexai/halu-js/issues"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "tsup": "^8.0.0",
+    "typescript": "^5.4.0"
+  }
+}
