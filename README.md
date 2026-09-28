@@ -1,7 +1,7 @@
 # @komplexai/halu
 
-JavaScript/TypeScript client for [**Komplex AI**](https://detector.komplexai.io) —
-a hallucination detector for LLM output. Score any AI response for hallucination
+JavaScript/TypeScript client for [**Komplex AI**](https://detector.komplexai.io)'s
+hallucination detector for LLM output. Score any AI response for hallucination
 risk in one call. Works in Node 18+ and modern browsers (zero dependencies —
 uses native `fetch`).
 
